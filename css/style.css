@@ -98,9 +98,6 @@ body {
     font-size: 19px;
     font-weight: 600;
     background-color: hsl(71, 73%, 54%);
-    /* box-shadow: 0px 8px 17px -4px rgba(0,0,0,0.9);
-    -webkit-box-shadow: 0px 8px 17px -4px rgba(0,0,0,0.9);
-    -moz-box-shadow: 0px 8px 17px -4px rgba(0,0,0,0.9); */
 }
 
 .b .sign-up-btn:hover {
@@ -130,15 +127,15 @@ body {
 
 @media (max-width: 45rem) {
     .container {
-    width: calc(100vw - 2em);
-    min-height: 100vh;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "a"
-    "c"
-    "b";
-    margin: 10px auto;
+        width: calc(100vw - 2em);
+        min-height: 100vh;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "a"
+        "c"
+        "b";
+        margin: 10px auto;
     }
 
     .a, .b, .c {
